@@ -26,6 +26,13 @@ namespace App.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            // API Versioning
+            services.AddApiVersioning(config =>
+            {
+                config.ReportApiVersions = true;
+                config.AssumeDefaultVersionWhenUnspecified = true;
+                config.DefaultApiVersion = new ApiVersion(1, 0);
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
