@@ -1,3 +1,4 @@
+using App.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +28,9 @@ namespace App.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddInfrastructure(Configuration);
+            IOC.DependencyContainer.RegisterService(services);
+
             // API Versioning
             services.AddApiVersioning(config =>
             {

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using App.Domain.Interfaces.BusinessInterface;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,11 +13,17 @@ namespace App.Api.Controllers
     [ApiVersion("1.0")]
     public class ActivitiesController : BaseApiController
     {
+        IActivityService activityService;
+        public ActivitiesController(IActivityService activityService)
+        {
+            this.activityService = activityService;
+        }
+
         // GET: api/<ActivitiesController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<IActionResult> Get()
         {
-            return new string[] { "value1", "value2" };
+            return Ok(await activityService.GetAll());
         }
 
         // GET api/<ActivitiesController>/5
