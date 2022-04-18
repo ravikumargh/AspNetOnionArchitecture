@@ -9,21 +9,21 @@ using System.Threading.Tasks;
 
 namespace App.Api.Controllers
 {
-    [Route("/api/public/v{version:apiVersion}/activities")]
+    [Route("/api/public/v{version:apiVersion}/items")]
     [ApiVersion("1.0")]
-    public class ActivitiesController : BaseApiController
+    public class ItemsController : BaseApiController
     {
-        IActivityService activityService;
-        public ActivitiesController(IActivityService activityService)
+        IItemService itemService;
+        public ItemsController(IItemService itemService)
         {
-            this.activityService = activityService;
+            this.itemService = itemService;
         }
 
         // GET: api/<ActivitiesController>
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            return Ok(await activityService.GetAll());
+            return Ok(await itemService.GetAll());
         }
 
         // GET api/<ActivitiesController>/5

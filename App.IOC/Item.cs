@@ -9,7 +9,7 @@ using System.Text;
 
 namespace App.IOC
 {
-    public static class Activity
+    public static class Item
     {
         public static void RegisterService(IServiceCollection serviceCollection)
         {
@@ -19,13 +19,13 @@ namespace App.IOC
 
         private static void RegisterActivityService(IServiceCollection serviceCollection)
         {
-            serviceCollection.AddTransient<IActivityService, ActivityService>();
+            serviceCollection.AddTransient<IItemService, ItemService>();
 
         }
 
         private static void RegisterActivityReposter(IServiceCollection serviceCollection)
         {
-            serviceCollection.AddTransient<IActivityRepository, ActivityRepository>();
+            serviceCollection.AddTransient<IItemRepository, ItemRepository>();
 
         }
        

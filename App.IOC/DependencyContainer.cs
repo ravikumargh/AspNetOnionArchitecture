@@ -9,7 +9,7 @@ namespace App.IOC
     {
         public static void RegisterService(IServiceCollection serviceCollection)
         {
-            Activity.RegisterService(serviceCollection);
+            Item.RegisterService(serviceCollection);
         }
     }
 }

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace App.Domain.ViewModels
 {
-    public class ActivityModel
+    public class ItemModel
     {
-        public Int64 ActivityId { get; set; }
+        public Int64 ItemId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public bool? IsDeleted { get; set; }

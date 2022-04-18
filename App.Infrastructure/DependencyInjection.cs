@@ -13,6 +13,7 @@ namespace App.Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            //services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IApplicationDBContext>(provider => provider.GetService<ApplicationDbContext>());
             return services;

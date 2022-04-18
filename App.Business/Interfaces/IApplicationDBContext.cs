@@ -8,7 +8,7 @@ namespace App.Business.Interfaces
 {
     public interface IApplicationDBContext
     {
-        DbSet<Activity> Activity { get; set; }
+        DbSet<Item> Activity { get; set; }
 
 
     }

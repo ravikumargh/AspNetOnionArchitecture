@@ -1,0 +1,162 @@
+[
+  {
+    "data": "GO! Series",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "100323",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "Exploring Series",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "100360",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "Skills for Success Series",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "100490",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "Your Office Series",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "100570",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "Windows 10 (2013/2016)",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "100690",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "GO! with Office 2016",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "100696",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "Exploring with Office 2016",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "100824",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "Skills for Success with Office 2016",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "100993",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "GO! All in One Simulations 2016",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "101030",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "GO! with Office 2019",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "101107",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "Skills for Success with Office 2019",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "101379",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "GO! All in One Simulations 2019",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "101418",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "MOS Practice Office 2019",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "101449",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "GO! with Office 2022",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "101605",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "Exploring with Office 2022",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "101724",
+      "rel": "FOLDER"
+    },
+    "children": []
+  },
+  {
+    "data": "MOS Practice Office 2022",
+    "state": "closed",
+    "icon": "FOLDER",
+    "attr": {
+      "id": "101879",
+      "rel": "FOLDER"
+    },
+    "children": []
+  }
+]

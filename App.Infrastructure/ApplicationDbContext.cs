@@ -13,7 +13,7 @@ namespace App.Infrastructure
             : base(options)
         {
         }
-        public DbSet<Activity> Activity { get; set; }
+        public DbSet<Item> Activity { get; set; }
 
     }
 }
