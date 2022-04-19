@@ -18,5 +18,7 @@ namespace App.Domain.Entities
         public string Description { get; set; }
         [Column("isfavourite")]
         public bool isFavourite { get; set; }
+        [Column("type")]
+        public int ItemType { get; set; }
     }
 }
